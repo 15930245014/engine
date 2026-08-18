@@ -263,10 +263,6 @@ func (a *AST) getJSTsign(expr ...types.ExprAST) (interface{}, error) {
 		"biz":          biz.(string),
 	}
 
-	// 	array("biz" => "{'req':100}", "charset" => "utf-8", "access_token" => "d7b01bf0842a4742a9450e21ffd95f60",
-	// "timestamp" => "1577771730", "version" => "2", "app_key" => "5b53060f23d84ddf9703056e84fa5a2d");
-	// echo get_sign("123456", $data);
-
 	var keys []string
 	for k := range m {
 		keys = append(keys, k)
@@ -300,8 +296,6 @@ func (a *AST) getJDYSessionId(expr ...types.ExprAST) (interface{}, error) {
 	params := map[string]interface{}{}
 
 	url := "https://worthfind.ik3cloud.com/k3cloud/Kingdee.BOS.WebApi.ServicesStub.AuthService.ValidateUser.common.kdsvc"
-	//url := "https://121.40.73.88/k3cloud/Kingdee.BOS.WebApi.ServicesStub.AuthService.ValidateUser.common.kdsvc"
-
 	res, err := httpclient.DoRequest(url, "POST", "", header, params, body, 10)
 	if err != nil {
 		return nil, err
