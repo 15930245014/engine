@@ -1,5 +1,6 @@
 # 中文文档
-- 语雀直接访问就行了 https://www.yuque.com/g/xupengxiang-viaes/ewsqb5/collaborator/join?token=OkDmmKOa4tcqEnUW&source=book_collaborator#
+- 语雀直接访问就行了
+- https://www.yuque.com/g/xupengxiang-viaes/ewsqb5/collaborator/join?token=1QmJKOCgT8YIKuXg&source=book_collaborator# 《许鹏翔知识库》
 - 文采有限、篇幅略长望谅解。
 - 生活不易，仍需努力！ 有好的建议或不懂的可以评论，一起交流学习。
 
